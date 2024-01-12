@@ -1,0 +1,8 @@
+FROM postgres:latest
+
+
+ENV POSTGRES_DB=nome_do_banco
+ENV POSTGRES_USER=usuario
+ENV POSTGRES_PASSWORD=senha
+
+EXPOSE 5432
